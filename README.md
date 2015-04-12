@@ -47,7 +47,7 @@ let start = "München Hbf"
 let destination = "Hamburg Hbf"
 let date = "10.04.15"
 let time = "15:00"
-bahnManager.getConnections(start, destination: destination, date: date, time: time, callback: { (success, resukt) -> () int
+bahnManager.getConnections(start, destination: destination, date: date, time: time, callback: { (success, result) -> () int
   if success {
     // result contains dictionary with departure = arrival time
     "05:05" = "10:55";
